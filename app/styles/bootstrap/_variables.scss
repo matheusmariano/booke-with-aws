@@ -1,0 +1,12 @@
+$city-lights: #dfe6e9;
+$dracula-orchid: #2d3436;
+
+$colors: (
+  'city-lights': $city-lights,
+  'dracula-orchid': $dracula-orchid
+);
+
+$body-bg: $city-lights;
+$body-color: $dracula-orchid;
+$font-family-sans-serif: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+$headings-font-family: Montserrat, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';

@@ -1,7 +1,24 @@
 {
+  "general": {
+    "brand": "Booke"
+  },
   "home": {
     "page_title": "Booke",
-    "title": "Booke",
-    "description": "Save and share your photos anywhere"
+    "main_menu": {
+      "sign_in": "Sign In"
+    },
+    "hero": {
+      "title": "Keep your memories safe",
+      "description": "With Booke, you can safely store your photos and videos, as well as share with your friends and family."
+    },
+    "sign_up": {
+      "title": "Sign Up",
+      "email": "E-mail",
+      "password": "Password",
+      "action": "Create Account"
+    },
+    "footer": {
+      "message": "Made with 💪 by {author}"
+    }
   }
 }

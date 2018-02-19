@@ -1,1 +1,25 @@
 @import '../../styles/main';
+
+$main-menu-height: $nav-link-height + 2 * $navbar-padding-y;
+$footer-height: $main-menu-height;
+
+.hero {
+  &__section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+.sign-up {
+  max-width: 450px;
+  width: 100%;
+}
+
+@include media-breakpoint-up(md) {
+  .hero {
+    &__section {
+      height: calc(100vh - #{$main-menu-height} - #{$footer-height});
+    }
+  }
+}
